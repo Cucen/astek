@@ -15,7 +15,7 @@ import com.astek.util.JSonParser;
 
 public class JSonParseActivity extends Activity {
 
-	public String urlip = "http://192.168.2.12/";
+	public String urlip = "http://192.168.1.100:8080/";
 	//public String urlip = "http://192.168.1.67/";
 	
 	//public String urlip = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator;
