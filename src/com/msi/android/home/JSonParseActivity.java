@@ -15,6 +15,7 @@ import com.astek.util.JSonParser;
 
 public class JSonParseActivity extends Activity {
 
+	//url deðiti
 	public String urlip = "http://192.168.1.100:8080/";
 	//public String urlip = "http://192.168.1.67/";
 	
