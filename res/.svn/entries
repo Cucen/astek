@@ -1,0 +1,52 @@
+10
+
+dir
+99
+http://xp-dev.com/svn/astek/res
+http://xp-dev.com/svn/astek
+
+
+
+2012-07-30T18:45:47.965283Z
+96
+ahmet85
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8dce1c82-474b-45ec-b4e5-069e13c05082
+
+values
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+anim
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+layout
+dir
+

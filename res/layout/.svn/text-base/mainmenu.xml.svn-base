@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg">
+
+	<ImageButton
+	    android:id="@+id/btnPhoto"
+	    android:layout_alignParentRight="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/language_button" />
+
+	<FrameLayout 
+	    android:id="@+id/flMovie"
+	    android:layout_width="wrap_content"
+	    android:layout_height="221dp"
+	    android:layout_above="@+id/ortadirek"
+	    android:layout_toLeftOf="@+id/flDTV">
+		<ImageButton
+		    android:id="@+id/btnMovie"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/movie_button" />    
+        <TextView
+			android:id="@+id/txtMovie"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Film"
+			android:textColor="#FFFFFF"
+			android:textSize="25.0px"
+			android:layout_gravity="bottom|center_horizontal" />
+	</FrameLayout>
+    
+
+	<FrameLayout 
+	    android:id="@+id/flDTV"
+	    android:layout_width="wrap_content"
+	    android:layout_height="221dp"
+	    android:layout_above="@+id/ortadirek"
+	    android:layout_toLeftOf="@+id/ortadirek">
+	     <ImageButton
+	         android:id="@+id/btnDTV"
+	         android:layout_toRightOf="@+id/btnMovie"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_marginLeft="9.0px"
+	         android:background="@drawable/dtv_button" />
+	     <TextView
+	         android:id="@+id/txtTelevizyon"
+	         android:layout_toRightOf="@+id/txtMovie"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="Televizyon"
+	         android:textColor="#FFFFFF"
+	         android:textSize="25.0px" 
+	         android:layout_gravity="bottom|center_horizontal"/>
+	</FrameLayout>
+     
+	<FrameLayout 
+	    android:id="@+id/flMusic"
+	    android:layout_width="wrap_content"
+	    android:layout_height="221dp"
+	    android:layout_above="@+id/ortadirek"
+	    android:layout_toRightOf="@+id/ortadirek">
+	     <ImageButton
+	         android:id="@+id/btnMusic"
+	         android:layout_toRightOf="@+id/btnDTV"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_marginLeft="9.0px"
+	         android:background="@drawable/music_button" />
+	     <TextView
+	         android:id="@+id/txtMuzik"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="Müzik"
+	         android:textColor="#FFFFFF"
+	         android:textSize="25.0px"
+	         android:layout_gravity="bottom|center_horizontal" />
+     </FrameLayout>
+     
+	<FrameLayout 
+	    android:id="@+id/flAdvertorial"
+	    android:layout_width="wrap_content"
+	    android:layout_height="221dp"
+	    android:layout_above="@+id/ortadirek"
+	    android:layout_toRightOf="@+id/flMusic">
+		<ImageButton
+		    android:id="@+id/btnAdvertorial"
+		    android:layout_toRightOf="@+id/btnMusic"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="9.0px"
+		    android:background="@drawable/advetorial_button" />
+		<TextView
+		    android:id="@+id/txtAdvertorial"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Tanitim"
+		    android:textColor="#FFFFFF"
+		    android:textSize="25.0px"
+		    android:layout_gravity="bottom|center_horizontal" />
+	</FrameLayout>
+     
+	<View 
+	    android:id="@+id/ortadirek"
+	    android:layout_centerVertical="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_width="1dp"
+	    android:layout_height="1dp"/>
+	
+	<FrameLayout 
+	    android:id="@+id/flNews"
+	    android:layout_width="wrap_content"
+	    android:layout_height="221dp"
+	    android:layout_marginTop="21dp"
+	    android:layout_toLeftOf="@+id/flRoute"
+	    android:layout_below="@+id/flDTV">
+	     <ImageButton
+	         android:id="@+id/btnNews"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/internet_button" />
+	     <TextView
+	         android:id="@+id/txtInternet"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="İnternet"
+	         android:textColor="#FFFFFF"
+	         android:textSize="25.0px"
+	         android:layout_gravity="bottom|center_horizontal" />
+	</FrameLayout>
+     
+	<FrameLayout 
+	    android:id="@+id/flRoute"
+	    android:layout_width="wrap_content"
+	    android:layout_height="221dp"
+	    android:layout_marginTop="21dp"
+	    android:layout_toLeftOf="@+id/ortadirek"
+	    android:layout_below="@+id/flDTV">
+	     <ImageButton
+	         android:id="@+id/btnRoute"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_marginLeft="9.0px"
+	         android:background="@drawable/route_button"
+	         android:visibility="visible" />
+	     <TextView
+	         android:id="@+id/txtTripInfo"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="Rota"
+	         android:textColor="#FFFFFF"
+	         android:textSize="25.0px" 
+	         android:layout_gravity="bottom|center_horizontal"/>
+	</FrameLayout>
+     
+	<FrameLayout 
+	    android:id="@+id/flSurvey"
+	    android:layout_width="wrap_content"
+	    android:layout_height="221dp"
+	    android:layout_marginTop="21dp"
+	    android:layout_toRightOf="@+id/ortadirek"
+	    android:layout_below="@+id/flDTV">
+	     <ImageButton
+	         android:id="@+id/btnSurvey"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_marginLeft="9.0px"
+	         android:background="@drawable/survey_button" />
+	     <TextView
+	         android:id="@+id/txtSurvey"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="Anket"
+	         android:textColor="#FFFFFF"
+	         android:textSize="25.0px" 
+          	 android:layout_gravity="bottom|center_horizontal"/>
+	</FrameLayout>
+     
+	<FrameLayout 
+	    android:id="@+id/flGame"
+	    android:layout_width="wrap_content"
+	    android:layout_height="221dp"
+	    android:layout_marginTop="21dp"
+	    android:layout_toRightOf="@+id/flSurvey"
+	    android:layout_below="@+id/flDTV">
+	     <ImageButton
+	         android:id="@+id/btnGame"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_marginLeft="9.0px"
+	         android:background="@drawable/game_button" />
+	     <TextView
+	         android:id="@+id/txtGame"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="Oyun"
+	         android:textColor="#FFFFFF"
+	         android:textSize="25.0px"
+	         android:layout_gravity="bottom|center_horizontal" />
+	</FrameLayout>
+
+</RelativeLayout>

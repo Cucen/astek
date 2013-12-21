@@ -1,0 +1,21 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"cocuk",
+				"nametext":"TRT 1",
+                "image":"astek/picture/yumurcak.jpg",
+				"directory":"http://192.168.1.48:8001/1:0:1:1:1:1:1A4AE8F:0:0:0:",
+				"filmdtvmusic":"dtv"
+            },
+            {
+                "category":"haber",
+				"nametext":"CNBC",
+                "image":"astek/picture/cnbc.jpg",
+				"directory":"rtsp://85.111.3.55/cnbce",
+				"filmdtvmusic":"dtv"
+            }
+            ]			
+        }
+    }
+	

@@ -1,0 +1,35 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"aksiyon",
+                "txt":"Dövüþçü.itd.txt",
+                "image":"Dövüþçü.jpg",
+				"imageitd":"Dövüþçü.itd.png",
+				"directory":"Dövüþçü.avi"
+            },
+            {
+                "category":"aksiyon",
+                "txt":"Ýntikam Peþinde.itd.txt",
+                "image":"Ýntikam Peþinde.jpg",
+				"imageitd":"Ýntikam Peþinde.png",
+				"directory":"Ýntikam Peþinde.avi"
+            },
+            {
+                "category":"cocuk",
+                "txt":"Amazon Jack.itd.txt",
+                "image":"Amazon Jack.jpg",
+				"imageitd":"Amazon Jack.itd.png",
+				"directory":"Amazon Jack.avi"
+            },
+            {
+                "category":"cocuk",
+                "txt":"Merhaba Dünyalý.itd.txt",
+                "image":"Merhaba Dünyalý.jpg",
+				"imageltd":"Merhaba Dünyalý.png",
+				"directory":"Merhaba Dünyalý.avi"
+            }	
+            ]			
+            ]
+        }
+    }

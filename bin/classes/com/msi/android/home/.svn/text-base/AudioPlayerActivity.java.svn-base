@@ -1,0 +1,361 @@
+package com.msi.android.home;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
+
+import org.json.JSONObject;
+
+import android.content.Intent;
+import android.graphics.drawable.Drawable;
+import android.media.MediaPlayer;
+import android.media.MediaPlayer.OnCompletionListener;
+import android.media.MediaPlayer.OnPreparedListener;
+import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
+import android.widget.SeekBar;
+import android.widget.SeekBar.OnSeekBarChangeListener;
+import android.widget.TextView;
+
+import com.androidquery.AQuery;
+
+public class AudioPlayerActivity extends JSonParseActivity implements OnSeekBarChangeListener, OnItemClickListener{
+
+	private AQuery aq;
+	private ViewHolder holder;
+	private Drawable mpPlay;
+	private Drawable mpPause;
+	private int currentPos = 0;
+
+	public String TAG = "AudioPlayerActivity";
+
+	// private String path = "/mnt/sdcard/DCIM/Camera/sample.mp4";
+	// private String path = "rtsp://dcdn.motiwe.com:80/dogantv/startv.stream";
+
+//	private String lookingID;
+	protected String lookingIdParam = "idpath";
+	
+	@Override
+	public void onCreate(Bundle icicle) {
+		super.onCreate(icicle);
+		setContentView(R.layout.audioplayerview);
+		
+		Bundle bundle = this.getIntent().getExtras();
+//		lookingID = bundle.getString(lookingIdParam);
+		
+		String readFile = "";
+		String urlip = "";
+		String path ="";
+		
+		bundle = this.getIntent().getExtras();
+		if (bundle != null) {
+			urlip = bundle.getString("urlip");
+			readFile = bundle.getString("readFile");
+			path = urlip+readFile;
+		}
+		
+		String enc = OptionsActivity.enc;
+		parseJSon(path, enc);
+//		JSonList.setJsonArrayLanguage(jsonArray);
+		
+		initAttr();
+		initMp();
+		initViews();
+	}
+	
+	@Override
+	protected void onStop() {
+		super.onStop();
+		hidePlayer();
+		try{
+			holder.mp.stop();
+			holder.mp.release();
+		} catch(Exception err){
+			err.printStackTrace();
+		}
+	}
+	
+	private void initAttr(){
+		
+		if(aq == null){
+			aq = new AQuery(this);
+			holder = new ViewHolder();
+			mpPause = getResources().getDrawable(R.drawable.mp_pause);
+			mpPlay = getResources().getDrawable(R.drawable.mp_play);
+		}
+	}
+	
+	private void initMp(){
+		holder.mp = new MediaPlayer();
+		holder.mp.setOnPreparedListener(new OnPreparedListener() {
+			
+			public void onPrepared(MediaPlayer mp) {
+//				holder.pb.setVisibility(View.GONE);
+				aq.id(holder.tvPosAndDuration).visible();
+//				holder.tvAudioTitle.setText(holder.adapter.getItem(0).optString("nametext"));
+				holder.bPlayPause.setImageDrawable(mpPause);
+				holder.sb.setMax(mp.getDuration());
+				mp.start();
+				showPlayer();
+				checkSBar();
+			}
+		});
+		
+		holder.mp.setOnCompletionListener(new OnCompletionListener() {
+			
+			public void onCompletion(MediaPlayer mp) {
+//				mp.stop();
+				holder.bPlayPause.setImageDrawable(mpPlay);
+				holder.tvPosAndDuration.setText("00:00 / 00:00");
+				nextAudio();
+			}
+		});
+		
+	}
+	
+	protected void nextAudio(){
+		currentPos = (currentPos+1) < jsonArray.length() ?
+							currentPos+1 : 0;
+		holder.list.smoothScrollToPositionFromTop(currentPos,251,100);
+		holder.mp.stop();
+		holder.mp.reset();
+		hidePlayer();
+		playAudio(currentPos);
+	}
+	
+	protected void prevAudio(){
+		currentPos = currentPos > 0 ? (currentPos - 1) % jsonArray.length()
+									: 0;
+		holder.list.smoothScrollToPositionFromTop(currentPos,100,100);
+		holder.mp.stop();
+		holder.mp.reset();
+		hidePlayer();
+		playAudio(currentPos);
+	}
+	
+	protected void playAudio(int pos){
+		try {
+			JSONObject json = jsonArray.optJSONObject(pos);
+			aq.id(holder.ivAudioImg).image(urlip + json.optString("image"),false,false,0,0,null,R.anim.fade_in);
+			holder.mp.setDataSource(urlip + json.optString("directory"));
+			holder.mp.prepareAsync();
+			holder.adapter.notifyDataSetChanged();
+		} catch (IllegalArgumentException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SecurityException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IllegalStateException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	private void initAdapter(){
+		ArrayList<JSONObject> items = new ArrayList<JSONObject>();
+		for(int index = 0; index < jsonArray.length(); index++){
+			items.add(jsonArray.optJSONObject(index));
+		}
+		
+		holder.adapter = new ArrayAdapter<JSONObject>(getApplicationContext(),
+				R.layout.audio_list_item,items) {
+			
+			@Override
+			public View getView(int position, View convertView, ViewGroup parent) {
+				if (convertView == null) {
+					convertView = getLayoutInflater().inflate(
+							R.layout.audio_list_item, null);
+				}
+
+				JSONObject json = getItem(position);
+				AQuery aqadapter = aq.recycle(convertView);
+				String title = json.optString("nametext");
+				String titleNo = String.format("%02d", position+1);
+				StringBuilder sb = new StringBuilder("");
+					sb
+					  .append(titleNo)
+					  .append(" - ")
+					  .append(title);
+				aqadapter.id(R.id.name).text(sb);
+				if(currentPos == position){
+					aqadapter.id(R.id.name).background(R.drawable.audio_selected);
+				}
+				else{
+					aqadapter.id(R.id.name).background(android.R.color.transparent);
+				}
+//				String tb = jo.optString("image");
+				return convertView;
+			}
+		};
+		holder.list.setAdapter(holder.adapter);
+	}
+	
+	private void initViews(){
+		if(holder.rlMediaplayer == null){
+			holder.rlMediaplayer = (RelativeLayout) aq.id(R.id.rlMediaplayer).getView();
+			holder.bPrev = (ImageButton) aq.id(R.id.bPrev).getView();
+			holder.bPlayPause = (ImageButton) aq.id(R.id.bPlayPause).getView();
+			holder.bNext = (ImageButton) aq.id(R.id.bNext).getView();
+			holder.ivAudioImg = aq.id(R.id.ivAudioImg).getImageView();
+			holder.pb = aq.id(R.id.progress).getProgressBar();
+			holder.sb = (SeekBar) aq.id(R.id.sb).getView();
+			holder.tvPosAndDuration = aq.id(R.id.tvPosAndDuration).getTextView();
+			holder.list = (ListView) aq.id(android.R.id.list).getListView();
+			holder.list.setOnItemClickListener(this);
+			holder.sb.setOnSeekBarChangeListener(this);
+			initAdapter();
+			View v = aq.id(android.R.id.empty).getView();
+			v.setVisibility(View.GONE);
+			holder.pb.setVisibility(View.VISIBLE);
+			holder.list.smoothScrollByOffset(111);
+			playAudio(0);
+		}
+	}
+	
+	private void showPlayer(){
+		aq.id(holder.rlMediaplayer).animate(R.anim.fade_in);
+//		aq.id(holder.rlHeader).animate(R.anim.flyin);
+		aq.id(holder.rlMediaplayer).visible();
+	}
+	
+	private void hidePlayer(){
+		aq.id(holder.rlMediaplayer).animate(android.R.anim.fade_out);
+		aq.id(holder.rlMediaplayer).invisible();
+//		_aq.id(_holder.flHeader).animate(R.anim.grow_from_bottom);
+	}
+	
+	public void mpButtonClick(View v){
+		switch(v.getId()){
+		case R.id.backButton1:
+			finish();
+			break;
+		case R.id.homeButton1:
+			Intent homeIntent = new Intent(this,AndroidActivity.class);
+			homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(homeIntent);
+			finish();
+			break;
+		case R.id.bPrev:
+			currentPos =  holder.list.getFirstVisiblePosition();
+			prevAudio();
+			break;
+		case R.id.bPlayPause:
+			if(holder.mp.isPlaying()){
+				holder.mp.pause();
+				holder.bPlayPause.setImageDrawable(mpPlay);
+			}
+			else{
+				int duration = holder.mp.getDuration();
+				if(duration <= 0){
+					holder.mp.prepareAsync();
+					return;
+				}
+				holder.mp.start();
+				holder.bPlayPause.setImageDrawable(mpPause);
+				checkSBar();
+			}
+			break;
+		case R.id.bNext:
+			currentPos = holder.list.getLastVisiblePosition()-1;
+			nextAudio();
+			break;
+		}
+	}
+	
+	public void checkSBar(){
+		
+		Thread t = new Thread(new Runnable() {
+			
+			public void run() {
+				try{
+					while(holder.mp.isPlaying()){
+						runOnUiThread(new Runnable() {
+							
+							public void run() {
+								holder.sb.setProgress( holder.mp.getCurrentPosition());
+								displayCurrentPosInTime();
+							}
+							
+						});
+						try {
+							Thread.sleep(1000);
+						} catch (InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+				} catch(Exception err) {}
+			} 
+		});
+		t.start();
+		
+	}
+	
+	protected void displayCurrentPosInTime(){
+		int itotal = holder.mp.getDuration();
+		int icurrent = holder.mp.getCurrentPosition();
+		
+		String time = String.format("%02d:%02d / %02d:%02d", 
+				TimeUnit.MILLISECONDS.toMinutes(icurrent),
+				TimeUnit.MILLISECONDS.toSeconds(icurrent) % 60,
+				TimeUnit.MILLISECONDS.toMinutes(itotal),
+				TimeUnit.MILLISECONDS.toSeconds(itotal) % 60);
+		
+		holder.tvPosAndDuration.setText(time);
+	}
+	
+	public void onItemClick(AdapterView<?> adapter, View view, int position, long id) {
+		currentPos = position;
+		holder.mp.reset();
+		holder.bPlayPause.setImageDrawable(mpPlay);
+		hidePlayer();
+		playAudio(position);
+	};
+	
+	public void onProgressChanged(SeekBar seekBar, int progress,
+			boolean fromUser) {
+		if(fromUser){
+			holder.mp.seekTo(progress);
+		}
+		
+	}
+
+	public void onStartTrackingTouch(SeekBar seekBar) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void onStopTrackingTouch(SeekBar seekBar) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	final static private class ViewHolder{
+		RelativeLayout rlMediaplayer;
+		ImageView ivAudioImg;
+		TextView tvAudioTitle;
+		ImageButton bShowList; 
+		ImageButton bPrev; 
+		ImageButton bPlayPause; 
+		ImageButton bNext; 
+		MediaPlayer mp;
+		ProgressBar pb;
+		ListView list;
+		SeekBar sb;
+		ArrayAdapter<JSONObject> adapter;
+		TextView tvPosAndDuration;
+	}
+
+}

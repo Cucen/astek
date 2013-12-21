@@ -1,0 +1,61 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"comedy",
+				"nametext":"Ay Iþýðý",
+                "txt":"astek/movies/yabanci/Komedi/ayisigi.itd.txt",
+                "image":"astek/movies/yabanci/Komedi/ayisigi.jpg",
+				"imageitd":"astek/movies/yabanci/Komedi/ayisigi.itd.png",
+				"directory":"astek/movies/yabanci/Komedi/ayisigi.avi",
+				"filmdtvmusic":"film"
+            },
+            {
+                "category":"comedy",
+				"nametext":"Ben Sana Söylemiþtim",
+                "txt":"astek/movies/yabanci/Komedi/bensanasoylemistim.ltd.txt",
+                "image":"astek/movies/yabanci/Komedi/bensanasoylemistim.jpg",
+				"imageitd":"astek/movies/yabanci/Komedi/bensanasoylemistim.ltd.png",
+				"directory":"astek/movies/yabanci/Komedi/bensanasoylemistim.avi",
+				"filmdtvmusic":"film"
+            },
+            {
+                "category":"comedy",
+				"nametext":"Charli Ýþ Baþýnda",
+                "txt":"astek/movies/yabanci/Komedi/charliisbasinda.ltd.txt",
+                "image":"astek/movies/yabanci/Komedi/charliisbasinda.jpg",
+				"imageitd":"astek/movies/yabanci/Komedi/charliisbasinda.ltd.png",
+				"directory":"astek/movies/yabanci/Komedi/charliisbasinda.avi",
+				"filmdtvmusic":"film"
+            },
+            {
+                "category":"comedy",
+				"nametext":"Georgia Yasasý",
+                "txt":"astek/movies/yabanci/Komedi/georgiayasasi.ltd.txt",
+                "image":"astek/movies/yabanci/Komedi/georgiayasasi.jpg",
+				"imageitd":"astek/movies/yabanci/Komedi/georgiayasasi.ltd.png",
+				"directory":"astek/movies/yabanci/Komedi/georgiayasasi.avi",
+				"filmdtvmusic":"film"
+            },
+            {
+                "category":"comedy",
+				"nametext":"Hýnzýr Dadý",
+                "txt":"astek/movies/yabanci/Komedi/hinzirdadi.ltd.txt",
+                "image":"astek/movies/yabanci/Komedi/hinzirdadi.jpg",
+				"imageitd":"astek/movies/yabanci/Komedi/hinzirdadi.ltd.png",
+				"directory":"astek/movies/yabanci/Komedi/hinzirdadi.avi",
+				"filmdtvmusic":"film"
+            },
+            {
+                "category":"comedy",
+				"nametext":"Þöhret Yolu",
+                "txt":"astek/movies/yabanci/Komedi/sohretyolu.ltd.txt",
+                "image":"astek/movies/yabanci/Komedi/sohretyolu.jpg",
+				"imageitd":"astek/movies/yabanci/Komedi/sohretyolu.ltd.png",
+				"directory":"astek/movies/yabanci/Komedi/sohretyolu.avi",
+				"filmdtvmusic":"film"
+            }
+            ]			
+        }
+    }
+	

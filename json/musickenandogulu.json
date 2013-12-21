@@ -1,0 +1,23 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"musickenandogulu",
+				"nametext":"Kurþun Adres Sormaz",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/movies/yabanci/aksiyon/dovuscu.png",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/music/duhast.mp3"
+            },
+            {
+                "category":"musickenandogulu",
+				"nametext":"Romayý yakarým",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/movies/yabanci/aksiyon/intikampesinde.png",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/simarik.mp3"
+            }
+            ]			
+        }
+    }
+	

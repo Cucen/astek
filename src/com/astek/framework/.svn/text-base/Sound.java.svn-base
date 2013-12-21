@@ -1,0 +1,34 @@
+package com.astek.framework;
+
+
+/**
+ * 
+ * Kisa sesleri oynatmak icin ayri bir arayuz tanimladim. 
+ * Bunun nedeni ufak sesler oynatabilmek icin dosya acmak ve kapamak
+ * zaman alir. Ufak sesler her zaman kullanilabileceginden ve kisa olmalarindan
+ * hafizada tutulmasi bize avantaj saglar.
+ * 
+ * @author Musa Cavus
+ * @version 1.0
+ */
+public interface Sound {
+	
+	/**
+	 * 
+	 * Sesi verilen parametre ayari yuksekliginde oynatir.
+	 * 
+	 * @param volume
+	 *            Ses yuksekligi
+	 * 
+	 * 
+	 */
+    public void play(float volume);
+
+    
+	/**
+	 * 
+	 * Sesi yok eder.
+	 * 
+	 */
+    public void dispose();
+}

@@ -1,0 +1,55 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"pop",
+				"image":"astek/picture/sport.png",
+				"nametext":"Türk Pop",
+				"directory":"pop",
+				"readfile":"astek/configfiles/json/musicpop.json"
+            },
+            {
+                "category":"fantazi",
+				"image":"astek/picture/western.png",
+				"nametext":"Fantazi",
+				"directory":"fantazi",
+				"readfile":"astek/configfiles/json/musicfantazi.json"
+            },
+            {
+                "category":"ilahi",
+				"image":"astek/picture/Documentary.png",
+				"nametext":"Ýlahi",
+				"directory":"ilahi",
+				"readfile":"astek/configfiles/json/musicilahi.json"
+            },
+            {
+                "category":"halk",
+				"image":"astek/picture/dini.png",
+				"nametext":"Türk Halk Müziði",
+				"directory":"halk",
+				"readfile":"astek/configfiles/json/musichalk.json"
+            },
+            {
+                "category":"rock",
+				"image":"astek/picture/western.png",
+				"nametext":"Rock",
+				"directory":"rock",
+				"readfile":"astek/configfiles/json/musicrock.json"
+            },
+            {
+                "category":"arabesk",
+				"image":"astek/picture/Documentary.png",
+				"nametext":"Arabesk",
+				"directory":"arabesk",
+				"readfile":"astek/configfiles/json/musicarabesk.json"
+            },
+            {
+                "category":"sanat",
+				"image":"astek/picture/dini.png",
+				"nametext":"Türk Sanat Müziði",
+				"directory":"sanat",
+				"readfile":"astek/configfiles/json/musicsanat.json"
+            }
+            ]
+        }
+    }

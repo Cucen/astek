@@ -1,0 +1,50 @@
+{
+    "responseData":{
+        "results":[
+        		{
+        			"id":"tarkan_09",
+        			"titleNoFormatting":"Tarkan 2009",
+					"publisher":"Tarkan",
+	                "image":"/astek/picture/tarkan.jpg",
+	                "audios":[
+	                	"/astek/music/acimayacak.mp3",
+						"/astek/music/geridonus.mp3",
+	                	"/astek/music/simarik.mp3",
+						"/astek/music/aradabir.mp3",
+						"/astek/music/dedikodu.mp3",
+						"/astek/music/dilli duduk.mp3",
+	                	"/astek/music/metamorfoz.mp3",
+						"/astek/music/olurumsana.mp3",
+						"/astek/music/senbaskasin.mp3",
+						"/astek/music/kis gunesi.mp3",
+						"/astek/music/vayanamvay.mp3"	
+					]
+				},
+				{
+					"id":"sonerarica_09",
+        			"titleNoFormatting":"Soner Arica 2009",
+    				"publisher":"Soner Arica",
+	                "image":"/astek/picture/rafetelroman.jpg",
+	                "audios":[
+	                	"/astek/music/elimdedegil.mp3",
+						"/astek/music/duhast.mp3",
+	                	"/astek/music/kisgunesi.mp3",
+						"/astek/music/olurumsana.mp3",
+	                	"/astek/music/bir.mp3",
+						"/astek/music/uc.mp3",
+						"/astek/music/yetmis.mp3",
+						"/astek/music/kiloldumabi.mp3",
+	                	"/astek/music/dede.mp3",
+						"/astek/music/durak.mp3",
+						"/astek/music/ziplama.mp3",
+						"/astek/music/toplama.mp3",
+						"/astek/music/cikarma.mp3",
+						"/astek/music/eyvallah.mp3",
+	                	"/astek/music/tosbaga.mp3",
+						"/astek/music/nerede.mp3",
+						"/astek/music/iyiyim.mp3"	
+    				]
+				}
+		]
+    }
+}

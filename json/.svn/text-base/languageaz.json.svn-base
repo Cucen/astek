@@ -1,0 +1,17 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "language":"AZ",
+                "music":"Musiqi",
+                "survey":"Sorðu",
+				"dtv":"Televiziya",
+                "movie":"Film",
+				"tripinfo":"Rota",
+                "internet":"Internet",
+				"advertorial":"Teqdimat",
+				"game":"Oyun"
+            }
+            ]
+        }
+    }

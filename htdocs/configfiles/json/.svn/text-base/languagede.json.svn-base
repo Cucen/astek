@@ -1,0 +1,17 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "language":"DE",
+                "music":"Musik",
+                "survey":"Umfrage",
+				"dtv":"Fernsehen",
+                "movie":"Spielfilm",
+				"tripinfo":"Tripinfo",
+                "internet":"Internet",
+				"advertorial":"Werbung",
+				"game":"Spiel"
+            }
+            ]
+        }
+    }

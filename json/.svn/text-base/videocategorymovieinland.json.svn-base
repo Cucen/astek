@@ -1,0 +1,24 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"Aksiyon",
+            },
+            {
+                "category":"Çocuk",
+            },
+            {
+                "category":"Dram",
+            },
+            {
+                "category":"Fantastik",
+            },
+            {
+                "category":"Gerilimm",
+            },
+            {
+                "category":"Komedi",
+            }							
+            ]
+        }
+    }

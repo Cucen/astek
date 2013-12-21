@@ -1,0 +1,87 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"musiccengizkurtoglu",
+				"nametext":"Benden Bu Kadar",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/picture/music/cengizkurtoglu.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/music/Cengiz Kurtoðlu - Sessizce (2010)/01.Cengiz Kurtoðlu - Benden Bu Kadar.mp3"
+            },
+           {
+                "category":"musiccengizkurtoglu",
+				"nametext":"Sessizce",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/picture/music/cengizkurtoglu.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/music/Cengiz Kurtoðlu - Sessizce (2010)/02.Cengiz Kurtoðlu - Sessizce.mp3"
+            },
+            {
+                "category":"musiccengizkurtoglu",
+				"nametext":"Ummadýðým Anda",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/picture/music/cengizkurtoglu.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/music/Cengiz Kurtoðlu - Sessizce (2010)/03.Cengiz Kurtoðlu - Ummadýðým Anda.mp3"
+            },
+           {
+                "category":"musiccengizkurtoglu",
+				"nametext":"Ýtiraf Ediyorum",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/picture/music/cengizkurtoglu.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/music/Cengiz Kurtoðlu - Sessizce (2010)/04.Cengiz Kurtoðlu - Ýtiraf Ediyorum.mp3"
+            },
+            {
+                "category":"musiccengizkurtoglu",
+				"nametext":"Karayemiþ Dibine",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/picture/music/cengizkurtoglu.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/music/Cengiz Kurtoðlu - Sessizce (2010)/05.Cengiz Kurtoðlu - Karayemiþ Dibine.mp3"
+            },
+           {
+                "category":"musiccengizkurtoglu",
+				"nametext":"Geceler",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/picture/music/cengizkurtoglu.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/music/Cengiz Kurtoðlu - Sessizce (2010)/06.Cengiz Kurtoðlu - Geceler.mp3"
+            },
+            {
+                "category":"musiccengizkurtoglu",
+				"nametext":"Gidiyorum",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/picture/music/cengizkurtoglu.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/music/Cengiz Kurtoðlu - Sessizce (2010)/07.Cengiz Kurtoðlu - Gidiyorum.mp3"
+            },
+           {
+                "category":"musiccengizkurtoglu",
+				"nametext":"Hançer",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/picture/music/cengizkurtoglu.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/music/Cengiz Kurtoðlu - Sessizce (2010)/08.Cengiz Kurtoðlu - Hançer.mp3"
+            },
+            {
+                "category":"musiccengizkurtoglu",
+				"nametext":"Aþýðým Aþýk",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/picture/music/cengizkurtoglu.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/music/Cengiz Kurtoðlu - Sessizce (2010)/09.Cengiz Kurtoðlu - Aþýðým Aþýk.mp3"
+            },
+           {
+                "category":"musiccengizkurtoglu",
+				"nametext":"Çayýr Biçerim",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/picture/music/cengizkurtoglu.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/music/Cengiz Kurtoðlu - Sessizce (2010)/Çayýr Biçerim.mp3"
+            }
+            ]			
+        }
+    }
+	

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<A-bus>
+	<language>
+		<!-- 英文 -->
+		<code>en.US</code>
+		<name>English</name>
+	</language>
+	<language>
+		<!-- 繁體中文 -->
+		<code>zh.TW</code>
+		<name>繁體中文</name>
+	</language>
+	<language>
+		<!-- 簡體中文 -->
+		<code>zh.CN</code>
+		<name>简体中文</name>
+	</language>
+	<language>
+		<!-- 土耳其文 -->
+		<code>tr.TR</code>
+		<name>Türkçe</name>
+	</language>
+	<language>
+		<!-- 日文 -->
+		<code>ja.JP</code>
+		<name>日本語</name>
+	</language>
+	<language>
+		<!-- 西班牙文 -->
+		<code>es.ES</code>
+		<name>Español</name>
+	</language>
+	<language>
+		<!-- 葡萄牙文 -->
+		<code>pt.PT</code>
+		<name>Português</name>
+	</language>
+	<language>
+		<!-- 斯洛伐克文 -->
+		<code>sk.SK</code>
+		<name>Slovenčina</name>
+	</language>
+	<language>
+		<!-- 希臘文 -->
+		<code>el.GR</code>
+		<name>Ελληνικά</name>
+	</language>
+	<language>
+		<!-- 德文 -->
+		<code>de.DE</code>
+		<name>Deutsch</name>
+	</language>
+	<language>
+		<!-- 法文 -->
+		<code>fr.FR</code>
+		<name>Français</name>
+	</language>
+	<language>
+		<!-- 波蘭文 -->
+		<code>pl.PL</code>
+		<name>język polski</name>
+	</language>
+	<language>
+		<!-- 匈牙利文 -->
+		<code>hu.HU</code>
+		<name>Magyar</name>
+	</language>
+	<language>
+		<!-- 泰文 -->
+		<code>th.TH</code>
+		<name>ภาษาไทย</name>
+	</language>
+	<language>
+		<!-- 阿拉伯文 -->
+		<code>ar.EG</code>
+		<name>اللغة العربية</name>
+	</language>
+	<language>
+		<!-- 俄文 -->
+		<code>ru.RU</code>
+		<name>русский язык</name>
+	</language>
+	<language>
+		<!-- 荷蘭文 -->
+		<code>nl.NL</code>
+		<name>Nederlands</name>
+	</language>
+	<language>
+		<!-- 捷克文 -->
+		<code>cs.CZ</code>
+		<name>Čeština</name>
+	</language>
+	<language>
+		<!-- 義大利文 -->
+		<code>it.IT</code>
+		<name>Italiano</name>
+	</language>
+</A-bus>
+

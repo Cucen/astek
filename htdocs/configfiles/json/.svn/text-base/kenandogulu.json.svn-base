@@ -1,0 +1,79 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"musickenandogulu",
+				"nametext":"Aþk Oyunu",
+                "image":"astek/picture/music/kenandogulu.jpg",
+				"directory":"astek/music/Kenan Doðulu - Yaparým Bilirsin (2010)/Kenan Doðulu - Aþk Oyunu.mp3"
+            },
+          {
+                "category":"musickenandogulu",
+				"nametext":"Bellimi Olur",
+                "image":"astek/picture/music/kenandogulu.jpg",
+				"directory":"astek/music/Kenan Doðulu - Yaparým Bilirsin (2010)/Kenan Doðulu - Bellimi Olur.mp3"
+            },
+                  {
+                "category":"musickenandogulu",
+				"nametext":"Benimle Kal",
+                "image":"astek/picture/music/kenandogulu.jpg",
+				"directory":"astek/music/Kenan Doðulu - Yaparým Bilirsin (2010)/Kenan Doðulu - Benimle Kal.mp3"
+            },
+          {
+                "category":"musickenandogulu",
+				"nametext":"Bugünüm Sensiz Geçti",
+                "image":"astek/picture/music/kenandogulu.jpg",
+				"directory":"astek/music/Kenan Doðulu - Yaparým Bilirsin (2010)/Kenan Doðulu - Bugünüm Sensiz Geçti.mp3"
+            },
+                        {
+                "category":"musickenandogulu",
+				"nametext":"Çatlasýn Tüm Düþmanlar",
+                "image":"astek/picture/music/kenandogulu.jpg",
+				"directory":"astek/music/Kenan Doðulu - Yaparým Bilirsin (2010)/Kenan Doðulu - Çatlasýn Tüm Düþmanlar.mp3"
+            },
+          {
+                "category":"musickenandogulu",
+				"nametext":"Jazz Yapma",
+                "image":"astek/picture/music/kenandogulu.jpg",
+				"directory":"astek/music/Kenan Doðulu - Yaparým Bilirsin (2010)/Kenan Doðulu - Jazz Yapma.mp3"
+            },
+                  {
+                "category":"musickenandogulu",
+				"nametext":"Tak Etti Canýma",
+                "image":"astek/picture/music/kenandogulu.jpg",
+				"directory":"astek/music/Kenan Doðulu - Yaparým Bilirsin (2010)/Kenan Doðulu - Tak Etti Canýma.mp3"
+            },
+          {
+                "category":"musickenandogulu",
+				"nametext":"Tek Kürekçi - Playback",
+                "image":"astek/picture/music/kenandogulu.jpg",
+				"directory":"astek/music/Kenan Doðulu - Yaparým Bilirsin (2010)/Kenan Doðulu - Tek Kürekçi - Playback.mp3"
+            },
+          {
+                "category":"musickenandogulu",
+				"nametext":"Tek Kürekçi - Remix",
+                "image":"astek/picture/music/kenandogulu.jpg",
+				"directory":"astek/music/Kenan Doðulu - Yaparým Bilirsin (2010)/Kenan Doðulu - Tek Kürekçi - Remix.mp3"
+            },
+                  {
+                "category":"musickenandogulu",
+				"nametext":"Kenan Doðulu - Vurgunum Sana",
+                "image":"astek/picture/music/kenandogulu.jpg",
+				"directory":"astek/music/Kenan Doðulu - Yaparým Bilirsin (2010)/Kenan Doðulu - Vurgunum Sana.mp3"
+            },
+          {
+                "category":"musickenandogulu",
+				"nametext":"Yaparým Bilirsin",
+                "image":"astek/picture/music/kenandogulu.jpg",
+				"directory":"astek/music/Kenan Doðulu - Yaparým Bilirsin (2010)/Kenan Doðulu - Yaparým Bilirsin.mp3"
+            },
+          {
+                "category":"musickenandogulu",
+				"nametext":"Kenan Doðulu - Yazmýþsa Bozmak Olmaz",
+                "image":"astek/picture/music/kenandogulu.jpg",
+				"directory":"astek/music/Kenan Doðulu - Yaparým Bilirsin (2010)/Kenan Doðulu - Yazmýþsa Bozmak Olmaz.mp3"
+            }
+            ]			
+        }
+    }
+	

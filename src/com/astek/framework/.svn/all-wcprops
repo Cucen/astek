@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/astek/!svn/ver/98/src/com/astek/framework
+END
+Input.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/astek/!svn/ver/3/src/com/astek/framework/Input.java
+END
+Screen.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/astek/!svn/ver/3/src/com/astek/framework/Screen.java
+END
+Graphics.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/astek/!svn/ver/5/src/com/astek/framework/Graphics.java
+END
+Music.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/astek/!svn/ver/3/src/com/astek/framework/Music.java
+END
+Audio.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/astek/!svn/ver/3/src/com/astek/framework/Audio.java
+END
+Video.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/astek/!svn/ver/3/src/com/astek/framework/Video.java
+END
+FileIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/astek/!svn/ver/3/src/com/astek/framework/FileIO.java
+END
+Sound.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/astek/!svn/ver/3/src/com/astek/framework/Sound.java
+END
+Game.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/astek/!svn/ver/5/src/com/astek/framework/Game.java
+END
+Pool.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/astek/!svn/ver/3/src/com/astek/framework/Pool.java
+END
+Pixmap.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/astek/!svn/ver/3/src/com/astek/framework/Pixmap.java
+END

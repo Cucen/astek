@@ -1,0 +1,25 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"action",
+				"nametext":"Dövüþçü",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/movies/yabanci/aksiyon/dovuscu.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/movies/yabanci/aksiyon/dovuscu.avi",
+				"filmdtvmusic":"film"
+            },
+            {
+                "category":"action",
+				"nametext":"Ýntikam Peþinde",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/movies/yabanci/aksiyon/intikampesinde.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/movies/yabanci/aksiyon/intikampesinde.avi",
+				"filmdtvmusic":"film"
+            }
+            ]			
+        }
+    }
+	

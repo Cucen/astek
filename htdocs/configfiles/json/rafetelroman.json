@@ -1,0 +1,67 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"rafetelroman",
+				"nametext":"Sevdim Ama Sonu Yoktu",
+                "image":"astek/picture/music/rafetelroman.jpg",
+				"directory":"astek/music/Rafet El Roman - Bir Roman Gibi/01.Rafet El Roman - Sevdim Ama Sonu Yoktu.mp3"
+            },
+           {
+                "category":"rafetelroman",
+				"nametext":"Aþk-ý Virane",
+                "image":"astek/picture/music/rafetelroman.jpg",
+				"directory":"astek/music/Rafet El Roman - Bir Roman Gibi/02.Rafet El Roman - Aþk-ý Virane.mp3"
+            },
+            {
+                "category":"rafetelroman",
+				"nametext":"Son Veda",
+                "image":"astek/picture/music/rafetelroman.jpg",
+				"directory":"astek/music/Rafet El Roman - Bir Roman Gibi/03.Rafet El Roman - Son Veda.mp3"
+            },
+           {
+                "category":"rafetelroman",
+				"nametext":"Seni Seviyorum",
+                "image":"astek/picture/music/rafetelroman.jpg",
+				"directory":"astek/music/Rafet El Roman - Bir Roman Gibi/04.Rafet El Roman - Seni Seviyorum.mp3"
+            },
+            {
+                "category":"rafetelroman",
+				"nametext":"Ömrümün Sahibi",
+                "image":"astek/picture/music/rafetelroman.jpg",
+				"directory":"astek/music/Rafet El Roman - Bir Roman Gibi/05.Rafet El Roman - Ömrümün Sahibi.mp3"
+            },
+           {
+                "category":"rafetelroman",
+				"nametext":"Yaþananlar Anlatýlmaz",
+                "image":"astek/picture/music/rafetelroman.jpg",
+				"directory":"astek/music/Rafet El Roman - Bir Roman Gibi/06.Rafet El Roman - Yaþananlar Anlatýlmaz.mp3"
+            },
+            {
+                "category":"rafetelroman",
+				"nametext":"Aþkýndan Haber Ver",
+                "image":"astek/picture/music/rafetelroman.jpg",
+				"directory":"astek/music/Rafet El Roman - Bir Roman Gibi/07.Rafet El Roman - Aþkýndan Haber Ver.mp3"
+            },
+           {
+                "category":"rafetelroman",
+				"nametext":"Ohne Sie (Sensiz)",
+                "image":"astek/picture/music/rafetelroman.jpg",
+				"directory":"astek/music/Rafet El Roman - Bir Roman Gibi/08.Rafet El Roman - Ohne Sie (Sensiz).mp3"
+            },
+            {
+                "category":"rafetelroman",
+				"nametext":"Ne Oldu O Günlere",
+                "image":"astek/picture/music/rafetelroman.jpg",
+				"directory":"astek/music/Rafet El Roman - Bir Roman Gibi/Ne Oldu O Günlere.mp3"
+            },
+           {
+                "category":"rafetelroman",
+				"nametext":"Bilsen De Bilmesen De",
+                "image":"astek/picture/music/rafetelroman.jpg",
+				"directory":"astek/music/Rafet El Roman - Bir Roman Gibi/10.Rafet El Roman - Bilsen De Bilmesen De.mp3"
+            }
+            ]			
+        }
+    }
+	

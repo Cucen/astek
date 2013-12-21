@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@null" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mv_google_maps"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0p8v1LKF7DaJYUw-D3JcU8YlvGbaq5wG9D2kHxw" />
+
+    <RelativeLayout
+        android:id="@+id/navi2"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="1180dp" >
+
+        <ImageButton
+            android:id="@+id/backButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/back"
+            android:onClick="mpButtonClick"
+            android:padding="0dp" />
+
+        <ImageButton
+            android:id="@+id/bPrevMaps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/next"
+            android:onClick="mpButtonClick"
+            android:padding="0dp" />
+
+        <ImageButton
+            android:id="@+id/bNextMaps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/previous"
+            android:onClick="mpButtonClick"
+            android:padding="0dp" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,93 @@
+package com.astek.framework.impl;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+import android.content.res.AssetManager;
+import android.os.Environment;
+
+import com.astek.framework.FileIO;
+
+/**
+ * 
+ * Dosyalama sistemini kullanabilmek icin Java'nin InputStream ve OutputStream
+ * kutuphanelerinden yararlanilmaktadir. Asset'leri APK dosyasinda
+ * okuyabildigimiz icin sadece okuma metodu kullanilmistir.
+ * <p>
+ * SD kartindan okuma ve SD kartina yazma içinde iki metot daha eklendi.
+ * <p>
+ * 
+ * @author Musa Cavus
+ * @version 1.0
+ */
+
+public class AndroidFileIO implements FileIO {
+	
+	// assets dizinine ulasabilmek icin Android kutuphanesindeki AssetManager kullaniliyor
+    AssetManager assets;
+    
+    // SD kartinin Android sisteme gore dizin adi bu degiskende tutulmaktadir.
+    String externalStoragePath;
+
+
+    /**
+     * 
+     * Kurucu metot
+     * 
+     */
+    public AndroidFileIO(AssetManager assets) {
+        this.assets = assets;
+        
+        // getExternalStorageDirectory() metoduyla SD kartinin sisteme gore dizini bulunmaktadir
+        // ve getAbsolutePath() ile mutlak dizin bir String olarak iletilmektedir.
+        this.externalStoragePath = Environment.getExternalStorageDirectory()
+                .getAbsolutePath() + File.separator;
+    }
+
+
+	/**
+	 * 
+	 * Asset dizininde olan dosyalari okumaktadir.
+	 * 
+	 * @param fileName
+	 *            Okunacak dosyanin adi.
+	 * 
+	 * @return InputStream olarak okunan deger iletilmektedýr.
+	 */
+    public InputStream readAsset(String fileName) throws IOException {
+        return assets.open(fileName);
+    }
+
+
+	/**
+	 * 
+	 * SD kartinda olan dosyalari okumaktadir.
+	 * 
+	 * @param fileName
+	 *            Okunacak dosyanin adi.
+	 * 
+	 * @return InputStream olarak okunan deger iletilmektedýr.
+	 */
+    public InputStream readFile(String fileName) throws IOException {
+        return new FileInputStream(externalStoragePath + fileName);
+    }
+
+
+	/**
+	 * 
+	 * SD kartina dosyalar yazilmaktadir.
+	 * 
+	 * @param fileName
+	 *            Yazilacak dosyanin adi.
+	 * 
+	 * @return OutputStream olarak okunan deger iletilmektedýr.
+	 */
+    public OutputStream writeFile(String fileName) throws IOException {
+        return new FileOutputStream(externalStoragePath + fileName);
+    }
+}
+

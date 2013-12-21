@@ -1,0 +1,34 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"inland",
+				"image":"astek/picture/moviez/yerli.png",
+				"nametext":"01 - Yerli",
+				"directory":"yerli",
+				"readfile":"astek/configfiles/json/videocategorymovieinland.json"
+            },
+            {
+                "category":"foreign",
+				"image":"astek/picture/moviez/yabanci.png",
+				"nametext":"02 - Yabancý",
+				"directory":"yabanci",
+				"readfile":"astek/configfiles/json/videocategorymovieforeign.json"
+            },
+            {
+                "category":"turkey",
+				"image":"astek/picture/moviez/Documentary.png",
+				"nametext":"03 - Belgesel",
+				"directory":"turkiye",
+				"readfile":""
+            },
+            {
+                "category":"clip",
+				"image":"astek/picture/moviez/clip.png",
+				"nametext":"04 - Klip",
+				"directory":"klip",
+				"readfile":""
+            }					
+            ]
+        }
+    }

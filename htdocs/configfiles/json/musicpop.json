@@ -1,0 +1,38 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"cengizkurtoglu",
+				"image":"astek/picture/music/fundaarar.jpg",
+				"nametext":"Funda Arar",
+				"directory":"FUNDA ARAR",
+				"readfile":"astek/configfiles/json/fundaarar.json",
+				"filmdtvmusic":"music"
+            },
+            {
+                "category":"cengizkurtoglu",
+				"image":"astek/picture/music/cengizkurtoglu.jpg",
+				"nametext":"Cengiz Kurtoðlu",
+				"directory":"Cengiz Kurtoðlu - Sessizce (2010)",
+				"readfile":"astek/configfiles/json/cengizkurtoglu.json",
+				"filmdtvmusic":"music"
+            },
+            {
+                "category":"rafetelroman",
+				"image":"astek/picture/music/rafetelroman.jpg",
+				"nametext":"Rafet El Roman",
+				"directory":"rafetelroman",
+				"readfile":"astek/configfiles/json/rafetelroman.json",
+				"filmdtvmusic":"music"
+            },
+            {
+                "category":"kenandogulu",
+				"image":"astek/picture/music/kenandogulu.jpg",
+				"nametext":"Kenan Doðulu",
+				"directory":"kenandogulu",
+				"readfile":"astek/configfiles/json/kenandogulu.json",
+				"filmdtvmusic":"music"
+            }			
+            ]
+        }
+    }

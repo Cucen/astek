@@ -1,0 +1,33 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"gulsen",
+				"image":"astek/picture/action.png",
+				"nametext":"Gülþen",
+				"directory":"gulsen",
+				"readfile":"astek/configfiles/json/musicgulsen.json"
+            },
+            {
+                "category":"tarkan",
+				"image":"astek/picture/child.png",
+				"nametext":"Tarkan",
+				"directory":"tarkan",
+				"readfile":"astek/configfiles/json/musictarkan.json"
+            },
+            {
+                "category":"rafetelroman",
+				"image":"astek/picture/drama.png",
+				"nametext":"Rafet El Roman",
+				"directory":"rafetelroman"
+            },
+            {
+                "category":"kenandogulu",
+				"image":"astek/picture/scifi.png",
+				"nametext":"Kenan Doðulu",
+				"directory":"kenandogulu",
+				"readfile":"astek/configfiles/json/musickenandogulu.json"
+            }			
+            ]
+        }
+    }

@@ -1,0 +1,66 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"action",
+				"image":"astek/picture/action.png",
+				"nametext":"Aksiyon",
+				"directory":"aksiyon",
+				"readfile":"astek/configfiles/json/videoforeignaction.json"
+            },
+            {
+                "category":"child",
+				"image":"astek/picture/child.png",
+				"nametext":"Çocuk",
+				"directory":"cocuk",
+				"readfile":"astek/configfiles/json/videoforeignchild.json"
+            },
+            {
+                "category":"dram",
+				"image":"astek/picture/drama.png",
+				"nametext":"Dram",
+				"directory":"dram"
+            },
+            {
+                "category":"fantastic",
+				"image":"astek/picture/scifi.png",
+				"nametext":"Fantastik",
+				"directory":"fantastik"
+            },
+            {
+                "category":"horror",
+				"image":"astek/picture/horror.png",
+				"nametext":"Gerilim",
+				"directory":"gerilim"
+            },
+            {
+                "category":"comedy",
+				"image":"astek/picture/comedy.png",
+				"nametext":"Komedi",
+				"directory":"komedi"
+			
+            },
+            {
+                "category":"family",
+				"image":"astek/picture/family.png",
+				"nametext":"Aile",
+				"directory":"aile"
+			
+            },
+            {
+                "category":"adventure",
+				"image":"astek/picture/adventure.png",
+				"nametext":"Macera",
+				"directory":"adventure"
+			
+            },
+            {
+                "category":"romance",
+				"image":"astek/picture/romance.png",
+				"nametext":"Romantik",
+				"directory":"romance"
+			
+            }				
+            ]
+        }
+    }

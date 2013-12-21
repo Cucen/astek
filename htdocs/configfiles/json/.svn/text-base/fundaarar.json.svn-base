@@ -1,0 +1,111 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "category":"musicfundaarar",
+				"nametext":"Durulmalý",
+                "txt":"astek/movies/yabanci/aksiyon/dovuscu.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/dovuscu.itd.png",
+				"directory":"astek/music/FUNDA ARAR/01. Durulmalý.mp3"
+            },
+            {
+                "category":"musicfundaarar",
+				"nametext":"Geceler",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/FUNDA ARAR/02. Geceler.mp3"
+            },
+            {
+                "category":"musicfundaarar",
+				"nametext":"Ateþ Düþtüðü Yeri Yakar",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/FUNDA ARAR/03. Ateþ Düþtüðü Yeri Yakar.mp3"
+            },
+            {
+                "category":"musicfundaarar",
+				"nametext":"Aðlasam Duymaz",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/FUNDA ARAR/04. Aðlasam Duymaz.mp3"
+            },
+            {
+                "category":"musicfundaarar",
+				"nametext":"Külkedisi",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/FUNDA ARAR/05. Külkedisi.mp3"
+            },
+            {
+                "category":"musicfundaarar",
+				"nametext":"Aslýnda",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/FUNDA ARAR/06. Aslýnda.mp3"
+            },
+            {
+                "category":"musicfundaarar",
+				"nametext":"Sensizlik",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/FUNDA ARAR/07. Sensizlik.mp3"
+            },
+            {
+                "category":"musicfundaarar",
+				"nametext":"Aþk Ýçin Ýki Kiþi Gerekmez",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/FUNDA ARAR/08. Aþk Ýçin Ýki Kiþi Gerekmez.mp3"
+            },
+            {
+                "category":"musicfundaarar",
+				"nametext":"Geçmez Yara",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/FUNDA ARAR/09. Geçmez Yara.mp3"
+            },
+            {
+                "category":"musicfundaarar",
+				"nametext":"Aþk",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/FUNDA ARAR/10. Aþk.mp3"
+            },
+            {
+                "category":"musicfundaarar",
+				"nametext":"Zamanýn Eli",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/FUNDA ARAR/11. Zamanýn Eli.mp3"
+            },
+            {
+                "category":"musicfundaarar",
+				"nametext":"Yak Gel",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/FUNDA ARAR/12. Yak Gel.mp3"
+            },
+            {
+                "category":"musicfundaarar",
+				"nametext":"Senden Öðrendim",
+                "txt":"astek/movies/yabanci/aksiyon/intikampesinde.itd.txt",
+                "image":"astek/picture/music/fundaarar.jpg",
+				"imageitd":"astek/movies/yabanci/aksiyon/intikampesinde.itd.png",
+				"directory":"astek/music/FUNDA ARAR/13. Senden Öðrendim.mp3"
+            }
+            ]			
+        }
+    }
+	

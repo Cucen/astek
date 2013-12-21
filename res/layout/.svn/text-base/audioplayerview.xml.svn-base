@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="7dp"
+    android:background="@drawable/bg">
+    
+	<RelativeLayout
+        android:id="@+id/navi"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true">
+
+        <ImageButton
+            android:id="@+id/backButton1"
+            android:layout_above="@+id/homeButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:onClick="mpButtonClick" />
+
+        <ImageButton
+            android:id="@+id/homeButton1"
+            android:layout_above="@+id/ortadirek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/home"
+            android:onClick="mpButtonClick"
+            android:padding="0dp" />
+
+       	<View 
+		    android:id="@+id/ortadirek"
+		    android:layout_centerVertical="true"
+		    android:layout_centerHorizontal="true"
+		    android:layout_width="1dp"
+		    android:layout_height="1dp"/>
+        
+        <ImageButton
+            android:id="@+id/bPrev"
+            android:layout_below="@+id/ortadirek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/next"
+            android:onClick="mpButtonClick"
+            android:padding="0dp" />
+
+        <ImageButton
+            android:id="@+id/bNext"
+            android:layout_below="@+id/bPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/previous"
+            android:onClick="mpButtonClick"
+            android:padding="0dp" />
+    </RelativeLayout>
+    
+    <!--  Baslik -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:padding="17dp"
+        android:background="@android:drawable/dialog_frame" >
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+<!--         <TextView -->
+<!--             android:id="@+id/tvAudioTitle" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:ellipsize="end" -->
+<!--             android:textColor="#fff" -->
+<!--             android:textSize="31sp" -->
+<!--             android:background="@android:drawable/title_bar" /> -->
+
+        <ImageView
+            android:id="@+id/ivAudioImg"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <!--  Liste -->
+    <RelativeLayout
+        android:id="@+id/audioList"
+        android:layout_toRightOf="@+id/header"
+        android:layout_toLeftOf="@+id/navi"
+        android:layout_above="@+id/rlMediaplayer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@android:id/empty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ProgressBar
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:text="Lütfen bekleyin..."
+                android:textSize="35sp" />
+        </FrameLayout>
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:drawable/dialog_frame" >
+        </ListView>
+
+    </RelativeLayout>
+	<!-- Player -->
+    <RelativeLayout
+        android:id="@+id/rlMediaplayer"
+        android:layout_width="fill_parent"
+        android:layout_height="121dp"
+        android:layout_toLeftOf="@+id/navi"
+        android:layout_alignParentBottom="true"
+        android:background="@android:drawable/dialog_frame"
+        android:padding="21dp"
+        android:visibility="visible" >
+
+        <ImageButton
+            android:id="@+id/bPlayPause"
+            style="@style/musicbutton"
+            android:layout_centerVertical="true"
+            android:background="@drawable/audio_btn_selector"
+            android:src="@drawable/mp_play" />
+        
+        <SeekBar
+            android:id="@+id/sb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_toRightOf="@+id/bPlayPause"
+            android:layout_toLeftOf="@+id/tvPosAndDuration"
+            android:progress="0"
+        	android:secondaryProgress="0"
+            android:progressDrawable="@drawable/seekbar_progress"
+            android:thumb="@drawable/seek_handler" />
+<!--             android:progressDrawable="@android:color/holo_blue_dark" -->
+
+        <TextView
+            android:id="@+id/tvPosAndDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textSize="27sp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

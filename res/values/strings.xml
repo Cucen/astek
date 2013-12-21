@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">AstekActivity!</string>
+    <string name="app_name">Astek</string>
+    <string name="app_logo_top">Resim Slayt Show</string>
+	<string name="arrowup">\u2191</string>
+	<string name="arrowdown">\u2193</string>
+</resources>

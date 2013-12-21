@@ -1,0 +1,72 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "titleNoFormatting":"Yumurcak TV",
+                "publisher":"Cocuk kanali",
+                "image":"http://1.bp.blogspot.com/-XrtoP5jJurA/TrURfy_XpwI/AAAAAAAAAG4/91sR7zQOhGM/s1600/yumurcak-tv.jpg",
+				"dtv":"rtsp://media2.kure.tv:1935/live/yumurcak2"
+            },
+            {
+                "titleNoFormatting":"Samanyolu Haber",
+                "publisher":"Haber kanali",
+                "image":"http://1.bp.blogspot.com/-YC9Z_RasJAQ/TfCr2BRiBoI/AAAAAAAABgQ/zdg1U1oCWIQ/s1600/samanyolu-haber-izle.jpg",
+				"dtv":"rtsp://media2.kure.tv:1935/live/shaber2"
+            },
+            {
+                "titleNoFormatting":"Star TV",
+                "publisher":"",
+                "image":"http://3.bp.blogspot.com/-NamfAJ1jPX0/Tv-_ua5tVeI/AAAAAAAABJw/xrawduvvI_g/s1600/star-tv-yeni-logo.jpg",
+				"dtv":"rtsp://dcdn.motiwe.com:80/dogantv/startv.stream"
+            },
+            {
+                "titleNoFormatting":"Kanal D",
+                "publisher":"",
+                "image":"http://www.canli-tv-izle.org/images/logo/tv/101224-kanal-d.gif",
+				"dtv":"rtsp://dcdn.motiwe.com:80/dogantv/kanald.stream"
+            },
+            {
+                "titleNoFormatting":"STV Avrupa",
+                "publisher":"",
+                "image":"http://2.bp.blogspot.com/-Dy35zWXftUI/T2G7kPKGmNI/AAAAAAAADgI/YrGlQgoLoww/s1600/samanyolu+avrupa.jpg",
+				"dtv":"rtsp://208.65.101.208/STVAVRUPA1052E"
+            },
+            {
+                "titleNoFormatting":"CNN Turk",
+                "publisher":"",
+                "image":"http://2.bp.blogspot.com/-Lngs7PmSilk/TuOniP125qI/AAAAAAAAABo/ggIL-JS5h6Y/s1600/cnnturk.jpg",
+				"dtv":"rtsp://yayin.canlitv.com/cnnturk"
+            },
+            {
+                "titleNoFormatting":"TRT 1",
+                "publisher":"",
+                "image":"http://upload.wikimedia.org/wikipedia/tr/archive/1/1b/20080909122001!Trt1.gif",
+				"dtv":"rtsp://95.0.159.138/TV1"
+            },
+            {
+                "titleNoFormatting":"TNT",
+                "publisher":"",
+                "image":"http://www.heptvizle.net/files/image/tnt-tv.jpg",
+				"dtv":"rtsp://yayin.canlitv.com/tnt"
+            },
+            {
+                "titleNoFormatting":"ATV",
+                "publisher":"",
+                "image":"http://www.cetsohbet.com/canli-tv-izle/resimler/atv.jpg",
+				"dtv":"rtsp://yayin.canlitv.com/atv"
+            },
+            {
+                "titleNoFormatting":"CNBC",
+                "publisher":"",
+                "image":"http://www.m-gen.biz/resimler/cnbc_e.jpg",
+				"dtv":"rtsp://85.111.3.55/cnbce"
+            },
+            {
+                "titleNoFormatting":"TRT 4 Cocuk",
+                "publisher":"Cocuk kanali",
+                "image":"http://4.bp.blogspot.com/-sSfUnKec89k/TpIAES2WNBI/AAAAAAAAANg/wdIUjA0J_u0/s1600/Trt4.gif",
+				"dtv":"rtsp://95.0.159.138/TV4"
+            }				
+            ]
+        }
+    }

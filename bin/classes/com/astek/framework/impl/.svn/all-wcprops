@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/astek/!svn/ver/98/src/com/astek/framework/impl
+END
+AndroidPixmap.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/astek/!svn/ver/3/src/com/astek/framework/impl/AndroidPixmap.java
+END
+AndroidInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/astek/!svn/ver/3/src/com/astek/framework/impl/AndroidInput.java
+END
+TouchHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/astek/!svn/ver/3/src/com/astek/framework/impl/TouchHandler.java
+END
+AndroidGraphics.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/astek/!svn/ver/19/src/com/astek/framework/impl/AndroidGraphics.java
+END
+AndroidMusic.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/astek/!svn/ver/3/src/com/astek/framework/impl/AndroidMusic.java
+END
+AndroidAudio.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/astek/!svn/ver/3/src/com/astek/framework/impl/AndroidAudio.java
+END
+SingleTouchHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/astek/!svn/ver/3/src/com/astek/framework/impl/SingleTouchHandler.java
+END
+AccelerometerHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/astek/!svn/ver/3/src/com/astek/framework/impl/AccelerometerHandler.java
+END
+AndroidFileIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/astek/!svn/ver/98/src/com/astek/framework/impl/AndroidFileIO.java
+END
+AndroidFastRenderView.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/astek/!svn/ver/3/src/com/astek/framework/impl/AndroidFastRenderView.java
+END
+AndroidSound.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/astek/!svn/ver/3/src/com/astek/framework/impl/AndroidSound.java
+END
+AndroidGame.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/astek/!svn/ver/19/src/com/astek/framework/impl/AndroidGame.java
+END
+MultiTouchHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/astek/!svn/ver/3/src/com/astek/framework/impl/MultiTouchHandler.java
+END
+KeyboardHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/astek/!svn/ver/3/src/com/astek/framework/impl/KeyboardHandler.java
+END

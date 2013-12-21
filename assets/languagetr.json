@@ -1,0 +1,17 @@
+{
+    "responseData":{
+        "results":[
+            {
+                "language":"TR",
+                "music":"Müzik",
+                "survey":"Anket",
+				"dtv":"Televizyon",
+                "movie":"Film",
+				"tripinfo":"Rota",
+                "internet":"Ýnternet",
+				"advertorial":"Tanýtým",
+				"game":"Oyun"
+            }
+            ]
+        }
+    }
