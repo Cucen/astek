@@ -3,9 +3,8 @@ package com.msi.android.home;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
-
 import org.json.JSONObject;
-
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
@@ -25,7 +24,6 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
-
 import com.androidquery.AQuery;
 
 public class AudioPlayerActivity extends JSonParseActivity implements OnSeekBarChangeListener, OnItemClickListener{
@@ -122,6 +120,7 @@ public class AudioPlayerActivity extends JSonParseActivity implements OnSeekBarC
 		
 	}
 	
+	@SuppressLint("NewApi")
 	protected void nextAudio(){
 		currentPos = (currentPos+1) < jsonArray.length() ?
 							currentPos+1 : 0;
@@ -132,6 +131,7 @@ public class AudioPlayerActivity extends JSonParseActivity implements OnSeekBarC
 		playAudio(currentPos);
 	}
 	
+	@SuppressLint("NewApi")
 	protected void prevAudio(){
 		currentPos = currentPos > 0 ? (currentPos - 1) % jsonArray.length()
 									: 0;
@@ -202,6 +202,7 @@ public class AudioPlayerActivity extends JSonParseActivity implements OnSeekBarC
 		holder.list.setAdapter(holder.adapter);
 	}
 	
+	@SuppressLint("NewApi")
 	private void initViews(){
 		if(holder.rlMediaplayer == null){
 			holder.rlMediaplayer = (RelativeLayout) aq.id(R.id.rlMediaplayer).getView();
@@ -303,6 +304,7 @@ public class AudioPlayerActivity extends JSonParseActivity implements OnSeekBarC
 		
 	}
 	
+	@SuppressLint("NewApi")
 	protected void displayCurrentPosInTime(){
 		int itotal = holder.mp.getDuration();
 		int icurrent = holder.mp.getCurrentPosition();

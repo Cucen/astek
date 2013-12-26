@@ -58,7 +58,7 @@ public class WebMainActivity extends Activity {
 	public void onButtonClick(final View view) {
 		switch (view.getId()) {
 		case R.id.backButtonWeb:
-		webView.goBack();
+			finish();
 			break;
 		case R.id.homeButtonWeb:
 			Intent homeIntent = new Intent(this, AndroidActivity.class);
