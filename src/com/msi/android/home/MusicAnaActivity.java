@@ -2,7 +2,7 @@ package com.msi.android.home;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
@@ -17,7 +17,6 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
-
 import com.androidquery.AQuery;
 
 public class MusicAnaActivity extends Activity implements OnSeekBarChangeListener{
@@ -202,6 +201,7 @@ public class MusicAnaActivity extends Activity implements OnSeekBarChangeListene
 		
 	}
 	
+	@SuppressLint("NewApi")
 	protected void displayCurrentPosInTime(){
 		int itotal = holder.mp.getDuration();
 		int icurrent = holder.mp.getCurrentPosition();
@@ -235,12 +235,12 @@ public class MusicAnaActivity extends Activity implements OnSeekBarChangeListene
 	
 	final static private class ViewHolder{
 		RelativeLayout rlMediaplayer;
-		RelativeLayout rlHeader;
 		ImageView ivMusicImg;
+		ImageButton bPlayPause; 
 		TextView tvMusicTitle;
 		ImageButton bShowList; 
 		ImageButton bPrev; 
-		ImageButton bPlayPause; 
+		RelativeLayout rlHeader;
 		ImageButton bNext; 
 		MediaPlayer mp;
 		ProgressBar pb;

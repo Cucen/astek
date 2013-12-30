@@ -42,7 +42,6 @@
 	    android:layout_toLeftOf="@+id/ortadirek">
 	     <ImageButton
 	         android:id="@+id/btnDTV"
-	         android:layout_toRightOf="@+id/btnMovie"
 	         android:layout_width="wrap_content"
 	         android:layout_height="wrap_content"
 	         android:layout_marginLeft="9.0px"
@@ -66,7 +65,6 @@
 	    android:layout_toRightOf="@+id/ortadirek">
 	     <ImageButton
 	         android:id="@+id/btnMusic"
-	         android:layout_toRightOf="@+id/btnDTV"
 	         android:layout_width="wrap_content"
 	         android:layout_height="wrap_content"
 	         android:layout_marginLeft="9.0px"
@@ -89,7 +87,6 @@
 	    android:layout_toRightOf="@+id/flMusic">
 		<ImageButton
 		    android:id="@+id/btnAdvertorial"
-		    android:layout_toRightOf="@+id/btnMusic"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:layout_marginLeft="9.0px"
