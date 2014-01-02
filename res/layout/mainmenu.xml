@@ -17,7 +17,8 @@
 	    android:layout_width="wrap_content"
 	    android:layout_height="221dp"
 	    android:layout_above="@+id/ortadirek"
-	    android:layout_toLeftOf="@+id/flDTV">
+	    android:layout_marginTop="60dp"
+	    android:layout_toLeftOf="@+id/flDTV">"
 		<ImageButton
 		    android:id="@+id/btnMovie"
 		    android:layout_width="wrap_content"
@@ -38,6 +39,7 @@
 	    android:id="@+id/flDTV"
 	    android:layout_width="wrap_content"
 	    android:layout_height="221dp"
+	    android:layout_marginTop="60dp"
 	    android:layout_above="@+id/ortadirek"
 	    android:layout_toLeftOf="@+id/ortadirek">
 	     <ImageButton
@@ -48,7 +50,6 @@
 	         android:background="@drawable/dtv_button" />
 	     <TextView
 	         android:id="@+id/txtTelevizyon"
-	         android:layout_toRightOf="@+id/txtMovie"
 	         android:layout_width="wrap_content"
 	         android:layout_height="wrap_content"
 	         android:text="Televizyon"
@@ -61,6 +62,7 @@
 	    android:id="@+id/flMusic"
 	    android:layout_width="wrap_content"
 	    android:layout_height="221dp"
+	    android:layout_marginTop="60dp"
 	    android:layout_above="@+id/ortadirek"
 	    android:layout_toRightOf="@+id/ortadirek">
 	     <ImageButton
@@ -83,13 +85,14 @@
 	    android:id="@+id/flAdvertorial"
 	    android:layout_width="wrap_content"
 	    android:layout_height="221dp"
+	    android:layout_marginTop="60dp"
 	    android:layout_above="@+id/ortadirek"
 	    android:layout_toRightOf="@+id/flMusic">
 		<ImageButton
 		    android:id="@+id/btnAdvertorial"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
-		    android:layout_marginLeft="9.0px"
+		    android:layout_marginLeft="15.0px"
 		    android:background="@drawable/advetorial_button" />
 		<TextView
 		    android:id="@+id/txtAdvertorial"
@@ -113,6 +116,7 @@
 	    android:layout_width="wrap_content"
 	    android:layout_height="221dp"
 	    android:layout_marginTop="21dp"
+	    android:layout_marginBottom="40dp"
 	    android:layout_toLeftOf="@+id/flRoute"
 	    android:layout_below="@+id/flDTV">
 	     <ImageButton
@@ -135,6 +139,7 @@
 	    android:layout_width="wrap_content"
 	    android:layout_height="221dp"
 	    android:layout_marginTop="21dp"
+	    android:layout_marginBottom="40dp"
 	    android:layout_toLeftOf="@+id/ortadirek"
 	    android:layout_below="@+id/flDTV">
 	     <ImageButton
@@ -159,6 +164,7 @@
 	    android:layout_width="wrap_content"
 	    android:layout_height="221dp"
 	    android:layout_marginTop="21dp"
+	    android:layout_marginBottom="40dp"
 	    android:layout_toRightOf="@+id/ortadirek"
 	    android:layout_below="@+id/flDTV">
 	     <ImageButton
@@ -182,6 +188,7 @@
 	    android:layout_width="wrap_content"
 	    android:layout_height="221dp"
 	    android:layout_marginTop="21dp"
+	    android:layout_marginBottom="40dp"
 	    android:layout_toRightOf="@+id/flSurvey"
 	    android:layout_below="@+id/flDTV">
 	     <ImageButton

@@ -61,15 +61,14 @@
     <!--  Baslik -->
     <RelativeLayout
         android:id="@+id/header"
-        android:layout_width="301dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="17dp"
         android:background="@android:drawable/dialog_frame" >
 
         <ProgressBar
             android:id="@+id/progress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="2dp"
+            android:layout_height="2dp"
             android:layout_centerInParent="true"
             android:visibility="gone" />
 
@@ -138,6 +137,7 @@
         <ImageButton
             android:id="@+id/bPlayPause"
             style="@style/musicbutton"
+            android:layout_width="90dp"
             android:layout_centerVertical="true"
             android:background="@drawable/audio_btn_selector"
             android:src="@drawable/mp_play" />
