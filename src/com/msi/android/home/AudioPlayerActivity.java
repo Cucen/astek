@@ -151,6 +151,8 @@ public class AudioPlayerActivity extends JSonParseActivity implements OnSeekBarC
 		try {
 			JSONObject json = jsonArray.optJSONObject(pos);
 			aq.id(holder.ivAudioImg).image(urlip + json.optString("image"),false,false,0,0,null,R.anim.fade_in);
+			holder.ivAudioImg.getLayoutParams().height=200;
+			holder.ivAudioImg.getLayoutParams().width=200;
 			holder.mp.setDataSource(urlip + json.optString("directory"));
 			holder.mp.prepareAsync();
 			holder.adapter.notifyDataSetChanged();

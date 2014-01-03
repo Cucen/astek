@@ -89,7 +89,9 @@ public class GridViewActivity extends JSonParseActivity {
 		
 				InputStream is = url.openStream();
 				Bitmap bMap = BitmapFactory.decodeStream(is);
-
+				bMap.getWidth();
+				bMap.getHeight();
+				
 				/*
 				Bitmap bMap = BitmapFactory.decodeFile(imageUrl);
 					*/	
