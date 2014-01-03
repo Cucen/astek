@@ -3,7 +3,9 @@ package com.msi.android.home;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
+
 import org.json.JSONObject;
+
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -24,7 +26,9 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
+
 import com.androidquery.AQuery;
+import com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.Adapter;
 
 public class AudioPlayerActivity extends JSonParseActivity implements OnSeekBarChangeListener, OnItemClickListener{
 
@@ -61,6 +65,7 @@ public class AudioPlayerActivity extends JSonParseActivity implements OnSeekBarC
 			path = urlip+readFile;
 		}
 		
+
 		String enc = OptionsActivity.enc;
 		parseJSon(path, enc);
 //		JSonList.setJsonArrayLanguage(jsonArray);
