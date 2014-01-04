@@ -1,11 +1,13 @@
 package com.msi.android.home;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -15,13 +17,25 @@ public class WebMainActivity extends Activity {
 	public String url = "";
 	WebView webView;
 
+	@SuppressLint({ "NewApi", "SetJavaScriptEnabled" })
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		this.getWindow().requestFeature(Window.FEATURE_PROGRESS);
 		setContentView(R.layout.webview);
 		webView = (WebView) findViewById(R.id.webView1);
-		webView.getSettings().setJavaScriptEnabled(true);
+		
+		WebSettings settings = webView.getSettings();
+		settings.setBuiltInZoomControls(true);
+		settings.setUseWideViewPort(true);
+		settings.setJavaScriptEnabled(true);
+		settings.setSupportMultipleWindows(true);
+		settings.setJavaScriptCanOpenWindowsAutomatically(true);
+		settings.setLoadsImagesAutomatically(true);
+		settings.setLightTouchEnabled(true);
+		settings.setDomStorageEnabled(true);
+		settings.setLoadWithOverviewMode(true);
+		
 
 		webView.setWebChromeClient(new WebChromeClient() {
 			public void onProgressChanged(WebView view, int progress) {
